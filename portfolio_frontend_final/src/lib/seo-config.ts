@@ -2,9 +2,9 @@
 
 export const seoConfig = {
   home: {
-    title: 'Yogineers Technologies - Freelance Web & App Developer in Mumbai, Thane, Maharashtra',
-    description: 'Top-rated freelance web and mobile app development company in Mumbai, Thane, Maharashtra. Specializing in AI solutions, custom software, React, Node.js, healthcare tech, and government platforms. Hire expert freelance developers.',
-    keywords: 'freelance web developer Mumbai, freelance app developer Thane, software development Maharashtra, AI developer India, freelance programmer Mumbai, React developer Thane, Node.js developer Maharashtra, full stack freelancer, mobile app development Mumbai, custom software Thane, startup developer India, freelance tech consultant Mumbai',
+    title: 'Hire Freelance Web Developer Mumbai | Website Development Company Thane | Yogineers',
+    description: 'Top freelance web developer & website development company in Mumbai, Thane. Hire expert freelancers for web development, app development, React, Node.js, AI solutions. Affordable freelance website developer for startups & businesses in Maharashtra, India.',
+    keywords: 'freelance web developer, freelancer, website development company, hire freelance developer, freelance website developer, web development company Mumbai, freelance app developer, freelance software developer, freelance programmer, independent web developer, contract developer, freelance React developer, freelance Node.js developer, freelance full stack developer, website developer for hire, freelance web designer, freelance mobile app developer, freelance AI developer, freelance developer Mumbai, freelance developer Thane, freelance developer Maharashtra, hire freelancer Mumbai, website development services, web development agency, custom website development, ecommerce website developer, startup website developer, business website developer, affordable web developer, professional freelance developer, experienced freelance developer, top freelance developer India',
   },
   
   about: {
@@ -14,15 +14,15 @@ export const seoConfig = {
   },
   
   services: {
-    title: 'Services - Web Development, App Development & AI Solutions | Mumbai, Thane',
-    description: 'Comprehensive freelance development services in Mumbai, Thane, Maharashtra: Web Development, Mobile App Development, AI Integration, Cloud Solutions, Healthcare Tech, Government Platforms, and Custom Software Development.',
-    keywords: 'web development services Mumbai, app development Thane, AI solutions Maharashtra, custom software development India, React development Mumbai, Node.js services Thane, mobile app development Maharashtra, cloud solutions India, healthcare technology Mumbai, government platform development Thane, EdTech solutions Maharashtra, digital transformation India, API development Mumbai, database design Thane, UI/UX design Maharashtra',
+    title: 'Freelance Web Development Services | Website Development Company Mumbai, Thane',
+    description: 'Professional freelance web development services & website development company in Mumbai, Thane. Hire freelancers for web development, mobile apps, AI solutions, React, Node.js, ecommerce, WordPress, Shopify. Affordable rates for startups & businesses.',
+    keywords: 'freelance web development services, website development company Mumbai, web development services Thane, hire freelance web developer, freelance app development, freelance software development, custom website development, ecommerce website developer, WordPress developer freelance, Shopify developer freelance, React development services, Node.js development services, freelance full stack development, mobile app development services, AI development services, freelance UI UX design, web design services Mumbai, website developer for hire, freelance backend developer, freelance frontend developer, API development services, database development, cloud solutions, freelance DevOps, startup development services',
   },
   
   contact: {
-    title: 'Contact Us - Hire Freelance Developer in Mumbai, Thane, Maharashtra',
-    description: 'Get in touch with Yogineers Technologies for freelance web and app development services in Mumbai, Thane, Maharashtra. Free consultation for your next project. Available for hire across India.',
-    keywords: 'hire freelance developer Mumbai, contact app developer Thane, software development quote Maharashtra, freelance developer for hire India, web development consultation Mumbai, app development inquiry Thane, project estimate Maharashtra',
+    title: 'Hire Freelance Web Developer | Contact Website Development Company Mumbai',
+    description: 'Hire freelance web developer in Mumbai, Thane. Contact our website development company for free consultation. Get quotes for web development, app development, React, Node.js projects. Available for immediate hire across Maharashtra, India.',
+    keywords: 'hire freelance web developer, contact freelance developer, hire website developer, freelance developer for hire Mumbai, website development company contact, hire freelancer Mumbai, get web development quote, hire React developer, hire Node.js developer, freelance developer available, contact web developer, hire app developer, freelance consultation, project quote, hire full stack developer, contact software developer, hire freelance programmer, website developer near me',
   },
   
   projects: {
@@ -41,15 +41,15 @@ export const seoConfig = {
 // Service-specific SEO
 export const serviceSEO = {
   'web-development': {
-    title: 'Web Development Services - React, Node.js | Freelancer Mumbai, Thane',
-    description: 'Professional freelance web development services in Mumbai, Thane, Maharashtra. Expert in React, Node.js, Next.js, Vue.js, and full-stack development. Build responsive, scalable web applications.',
-    keywords: 'React developer Mumbai, Node.js developer Thane, web development Maharashtra, full stack developer India, Next.js development Mumbai, Vue.js developer Thane, JavaScript developer Maharashtra, TypeScript development India, responsive web design Mumbai, progressive web apps Thane',
+    title: 'Freelance Web Development | Hire React & Node.js Developer Mumbai, Thane',
+    description: 'Hire freelance web developer for React, Node.js, Next.js projects in Mumbai, Thane. Professional website development services - responsive design, full-stack development, progressive web apps. Affordable freelance rates for startups & businesses.',
+    keywords: 'freelance web development, hire React developer, hire Node.js developer, freelance React developer Mumbai, freelance Node.js developer Thane, website development services, full stack web developer, freelance JavaScript developer, freelance TypeScript developer, Next.js developer for hire, Vue.js freelance developer, responsive web design, progressive web apps, freelance frontend developer, freelance backend developer, MERN stack developer, MEAN stack developer, web application development, custom web development',
   },
   
   'app-development': {
-    title: 'Mobile App Development - iOS & Android | Freelancer Mumbai, Thane',
-    description: 'Expert freelance mobile app development in Mumbai, Thane, Maharashtra. Build native and cross-platform iOS and Android apps using React Native, Flutter. Custom mobile solutions for startups and enterprises.',
-    keywords: 'mobile app developer Mumbai, iOS developer Thane, Android developer Maharashtra, React Native development India, Flutter developer Mumbai, cross-platform apps Thane, native app development Maharashtra, mobile app design India, app development company Mumbai',
+    title: 'Freelance Mobile App Developer | Hire iOS & Android Developer Mumbai, Thane',
+    description: 'Hire freelance mobile app developer for iOS & Android in Mumbai, Thane. Expert in React Native, Flutter, native app development. Affordable freelance app development services for startups & businesses. Custom mobile solutions.',
+    keywords: 'freelance mobile app developer, hire app developer, freelance iOS developer, freelance Android developer, React Native developer for hire, Flutter developer freelance, mobile app development services, cross-platform app developer, native app developer, freelance app designer, mobile application developer, app development company, hire mobile developer Mumbai, freelance app developer Thane, custom app development, startup app developer, ecommerce app developer',
   },
   
   'ai-solutions': {
