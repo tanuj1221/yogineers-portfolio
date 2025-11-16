@@ -28,7 +28,7 @@ app.use((err, req, res, next) => {
     res.status(500).json({ error: 'Something went wrong!' });
 });
 
-const frontendPath = path.join(__dirname, '..', 'build'); // adjust based on where 'build' is
+const frontendPath = path.join(__dirname, '..', 'dist'); // adjust based on where 'build' is
 app.use((req, res, next) => {
   console.log(`[${req.method}] ${req.url}`);
   next();
