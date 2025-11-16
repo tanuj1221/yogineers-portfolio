@@ -11,9 +11,9 @@ interface SEOProps {
 }
 
 export const SEO = ({
-  title = 'Yogineers Technologies - Web & App Development | Freelancer in Mumbai, Thane, Maharashtra',
-  description = 'Leading freelance web & app development company in Mumbai, Thane, Maharashtra. Expert in AI solutions, mobile app development, custom software, healthcare tech, and government platforms. Hire top freelance developers.',
-  keywords = 'freelance web developer Mumbai, app development Thane, software developer Maharashtra, AI development India, freelance developer Mumbai, web development Thane, mobile app developer Maharashtra, custom software development, healthcare technology, government exam platforms, EdTech solutions, freelance programmer India, React developer Mumbai, Node.js developer Thane, full stack developer Maharashtra, AI integration services, machine learning solutions, cloud solutions India, startup development Mumbai, enterprise software Thane, digital transformation Maharashtra',
+  title = 'Hire Freelance Web Developer Mumbai | Website Development Company Thane | Yogineers',
+  description = 'Top freelance web developer & website development company in Mumbai, Thane. Hire expert freelancers for web development, app development, React, Node.js, AI solutions. Affordable freelance website developer for startups & businesses in Maharashtra, India.',
+  keywords = 'freelance web developer, freelancer, website development company, hire freelance developer, freelance website developer, web development company Mumbai, freelance app developer, freelance software developer, freelance programmer, independent web developer, contract developer, freelance React developer, freelance Node.js developer, freelance full stack developer, website developer for hire, freelance web designer, freelance mobile app developer, freelance AI developer, freelance developer Mumbai, freelance developer Thane, freelance developer Maharashtra, freelance developer India, hire freelancer Mumbai, website development services, web development agency, custom website development, ecommerce website developer, startup website developer, business website developer, affordable web developer, professional freelance developer, experienced freelance developer, top freelance developer India, best website development company Mumbai, web development company Thane, software development company Maharashtra, freelance tech consultant, remote freelance developer, on-demand developer, project-based developer, freelance backend developer, freelance frontend developer, freelance UI UX developer, freelance database developer, freelance API developer, freelance cloud developer, freelance DevOps engineer, freelance software engineer, freelance web application developer, freelance mobile application developer, freelance ecommerce developer, freelance WordPress developer, freelance Shopify developer, freelance MERN stack developer, freelance MEAN stack developer, freelance Python developer, freelance JavaScript developer, freelance TypeScript developer',
   ogImage = '/logo2.png',
   ogType = 'website',
   canonicalUrl,
@@ -71,10 +71,11 @@ export const SEO = ({
       <script type="application/ld+json">
         {JSON.stringify({
           "@context": "https://schema.org",
-          "@type": "ProfessionalService",
+          "@type": ["ProfessionalService", "LocalBusiness", "Organization"],
           "name": "Yogineers Technologies",
+          "alternateName": ["Yogineers", "Yogineers Tech"],
           "image": `${siteUrl}${ogImage}`,
-          "description": description,
+          "description": "Professional freelance web developer and website development company specializing in custom web applications, mobile apps, AI solutions, and digital transformation services for businesses in Mumbai, Thane, and across India.",
           "address": {
             "@type": "PostalAddress",
             "addressLocality": "Mumbai, Thane",
@@ -89,6 +90,7 @@ export const SEO = ({
           "url": siteUrl,
           "telephone": "+91-XXXXXXXXXX",
           "priceRange": "$$",
+          "slogan": "Your Trusted Freelance Web Developer & Website Development Partner",
           "openingHoursSpecification": {
             "@type": "OpeningHoursSpecification",
             "dayOfWeek": [
@@ -117,6 +119,10 @@ export const SEO = ({
               "name": "Thane"
             },
             {
+              "@type": "City",
+              "name": "Navi Mumbai"
+            },
+            {
               "@type": "State",
               "name": "Maharashtra"
             },
@@ -126,15 +132,52 @@ export const SEO = ({
             }
           ],
           "serviceType": [
-            "Web Development",
+            "Freelance Web Development",
+            "Website Development",
             "Mobile App Development",
+            "Freelance Software Development",
+            "Custom Web Application Development",
+            "E-commerce Website Development",
+            "React Development",
+            "Node.js Development",
+            "Full Stack Development",
+            "Frontend Development",
+            "Backend Development",
             "AI Solutions",
+            "Machine Learning Integration",
             "Custom Software Development",
+            "API Development",
+            "Database Development",
+            "Cloud Solutions",
+            "DevOps Services",
+            "UI/UX Design",
+            "Web Design",
+            "Responsive Web Design",
+            "Progressive Web Apps",
             "Healthcare Technology",
             "Government Platforms",
             "EdTech Solutions",
-            "Cloud Solutions",
-            "Digital Transformation"
+            "Startup Development",
+            "Enterprise Software",
+            "Digital Transformation",
+            "WordPress Development",
+            "Shopify Development",
+            "MERN Stack Development",
+            "MEAN Stack Development"
+          ],
+          "knowsAbout": [
+            "Web Development",
+            "Mobile App Development",
+            "React",
+            "Node.js",
+            "JavaScript",
+            "TypeScript",
+            "Python",
+            "AI",
+            "Machine Learning",
+            "Cloud Computing",
+            "DevOps",
+            "UI/UX Design"
           ]
         })}
       </script>
