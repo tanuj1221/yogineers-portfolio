@@ -12,10 +12,8 @@ pnpm-debug.log*
 .env.test.local
 .env.production.local
 
-# Build outputs
-portfolio_frontend_final/dist/
-yogineers-portfolio-backend/dist/
-build/
+
+
 *.log
 
 # IDE and editor files
