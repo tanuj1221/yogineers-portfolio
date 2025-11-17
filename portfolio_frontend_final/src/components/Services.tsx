@@ -75,6 +75,7 @@ interface TechBentoGridItemProps {
   technologies: string[];
   className?: string;
   size?: 'small' | 'medium' | 'large';
+  onClick?: () => void;
 }
 
 const TechBentoGridItem = ({
@@ -84,6 +85,7 @@ const TechBentoGridItem = ({
   technologies,
   className,
   size = 'small',
+  onClick,
 }: TechBentoGridItemProps) => {
   const variants = {
     hidden: { opacity: 0, y: 20 },
@@ -97,6 +99,7 @@ const TechBentoGridItem = ({
   return (
     <motion.div
       variants={variants}
+      onClick={onClick}
       className={cn(
         'group border-gray-200 dark:border-accent/20 bg-white dark:bg-background hover:border-accent/60 dark:hover:border-accent/50 relative flex h-full cursor-pointer flex-col justify-between overflow-hidden rounded-xl border px-6 pt-6 pb-10 shadow-lg hover:shadow-xl transition-all duration-500',
         className,
@@ -160,6 +163,7 @@ const techItems = [
     icon: <Code2 className="size-6" />,
     technologies: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Vite', 'Vue.js'],
     size: 'large' as const,
+    projectId: 9,
   },
   {
     title: 'Backend & APIs',
@@ -167,6 +171,7 @@ const techItems = [
     icon: <Database className="size-6" />,
     technologies: ['Node.js', 'Python', 'FastAPI', 'Express', 'PostgreSQL', 'MongoDB'],
     size: 'medium' as const,
+    projectId: 1,
   },
   {
     title: 'Mobile Development',
@@ -174,6 +179,7 @@ const techItems = [
     icon: <Smartphone className="size-6" />,
     technologies: ['React Native', 'Flutter', 'Swift', 'Kotlin', 'Expo', 'Firebase'],
     size: 'medium' as const,
+    projectId: 6,
   },
   {
     title: 'AI & Machine Learning',
@@ -181,6 +187,7 @@ const techItems = [
     icon: <Brain className="size-6" />,
     technologies: ['TensorFlow', 'PyTorch', 'OpenAI', 'Langchain', 'Scikit-learn', 'Pandas'],
     size: 'large' as const,
+    projectId: 4,
   },
   {
     title: 'Cloud & DevOps',
@@ -188,6 +195,7 @@ const techItems = [
     icon: <SiAmazon className="size-6" />,
     technologies: ['AWS', 'Docker', 'Kubernetes', 'CI/CD', 'Terraform', 'Vercel'],
     size: 'medium' as const,
+    projectId: 8,
   },
   {
     title: 'Database Solutions',
@@ -195,13 +203,15 @@ const techItems = [
     icon: <SiPostgresql className="size-6" />,
     technologies: ['PostgreSQL', 'MongoDB', 'Redis', 'GraphQL', 'Prisma', 'Supabase'],
     size: 'medium' as const,
+    projectId: 3,
   },
   {
-    title: 'Web3 & Blockchain',
-    description: 'Decentralized applications, smart contracts, and blockchain solutions for the next generation of web applications.',
-    icon: <SiGit className="size-6" />,
-    technologies: ['Solidity', 'Ethereum', 'Web3.js', 'IPFS', 'MetaMask', 'Polygon'],
+    title: 'Frontend UI/UX Design',
+    description: 'Beautiful, intuitive user interfaces and exceptional user experiences that drive engagement and conversion. We create pixel-perfect designs with modern design systems, accessibility standards, and user-centered design principles.',
+    icon: <SiFigma className="size-6" />,
+    technologies: ['Figma', 'Adobe XD', 'Sketch', 'Framer', 'Principle', 'InVision'],
     size: 'medium' as const,
+    projectId: 9,
   },
 ];
 
@@ -260,6 +270,10 @@ export const Services = () => {
 
   const handleViewProjects = (serviceId: number) => {
     navigate(`/projects/${serviceId}`);
+  };
+
+  const handleTechItemClick = (projectId: number) => {
+    navigate(`/projects/${projectId}`);
   };
   useEffect(() => {
     if (!isInView) return;
@@ -464,6 +478,7 @@ export const Services = () => {
                   technologies={item.technologies}
                   size={item.size}
                   className={item.size === 'large' ? 'lg:col-span-2 h-96' : 'h-96'}
+                  onClick={() => handleTechItemClick(item.projectId)}
                 />
               ))}
             </motion.div>

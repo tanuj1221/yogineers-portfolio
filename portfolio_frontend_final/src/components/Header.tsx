@@ -74,13 +74,13 @@ export const Header = () => {
           <img
             src="/YogineersTech-bgremoved.png"
             alt="Company Logo"
-            className="h-20 w-auto object-contain"
+            className="h-12 md:h-20 w-auto object-contain"
           />
-          <div className="flex flex-col">
+          <div className="flex flex-col hidden md:flex">
             <span className="text-2xl font-bold text-foreground tracking-tight">
               Yogineers Technologies
             </span>
-            <span className="text-xs font-medium text-muted-foreground tracking-wider uppercase text-center"> {/* Added text-center */}
+            <span className="text-xs font-medium text-muted-foreground tracking-wider uppercase text-center">
               Engineered To Elevate
             </span>
           </div>

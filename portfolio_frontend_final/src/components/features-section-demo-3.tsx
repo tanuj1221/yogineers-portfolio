@@ -6,37 +6,49 @@ import { useEffect, useRef } from "react";
 import { motion } from "motion/react";
 import { IconBrandYoutubeFilled } from "@tabler/icons-react";
 import DrawUnderlineButton from "@/components/AnimatedComponents/DrawUnderlineButton";
+import { 
+  SiReact, 
+  SiExpo, 
+  SiSwift, 
+  SiKotlin, 
+  SiFlutter, 
+  SiFirebase,
+  SiAndroid,
+  SiApple,
+  SiIonic,
+  SiTypescript
+} from 'react-icons/si';
 
 
 export default function FeaturesSectionDemo() {
   const features = [
     {
-      title: "Track issues effectively",
+      title: "Custom Web Development",
       description:
-        "Track and manage your project issues with ease using our intuitive interface.",
+        "Build modern, responsive web applications with cutting-edge technologies like React, Next.js, and TypeScript for exceptional user experiences.",
       skeleton: <SkeletonOne />,
       className:
         "col-span-1 lg:col-span-4 border-b lg:border-r border-orange-500 dark:border-orange-500",
     },
     {
-      title: "Capture pictures with AI",
+      title: "Mobile App Development",
       description:
-        "Capture stunning photos effortlessly using our advanced AI technology.",
+        "Create cross-platform mobile applications for iOS and Android with native performance using React Native and Flutter.",
       skeleton: <SkeletonTwo />,
       className: "border-b col-span-1 lg:col-span-2 border-orange-500 dark:border-orange-500",
     },
     {
-      title: "Watch our AI on YouTube",
+      title: "Watch Our Portfolio",
       description:
-        "Whether its you or Tyler Durden, you can get to know about our product on YouTube",
+        "Discover our successful projects and see how we've helped businesses transform their digital presence through innovative solutions.",
       skeleton: <SkeletonThree />,
       className:
         "col-span-1 lg:col-span-3 lg:border-r border-orange-500 dark:border-orange-500",
     },
     {
-      title: "Deploy in seconds",
+      title: "Global Cloud Solutions",
       description:
-        "With our blazing fast, state of the art, cutting edge, we are so back cloud servies (read AWS) - you can deploy your model in seconds.",
+        "Deploy scalable applications worldwide with our cloud infrastructure expertise using AWS, Docker, and Kubernetes for reliable performance.",
       skeleton: <SkeletonFour />,
       className: "col-span-1 lg:col-span-3 border-b lg:border-none",
     },
@@ -47,14 +59,14 @@ export default function FeaturesSectionDemo() {
         <div className="flex justify-center">
           <DrawUnderlineButton onBack={true} marginTop="32px" width="90%" thickness={3} autoAnimate={true}>
             <h2 className="text-display-lg mb-6 text-foreground text-center">
-              Packed with thousands of features
+              Comprehensive IT Solutions
             </h2>
           </DrawUnderlineButton>
         </div>
 
         <p className="text-body-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-12 text-center">
-          From Image generation to video generation, Everything AI has APIs for
-          literally everything. It can even create this website copy for you.
+          From custom web applications to AI-powered solutions, we deliver end-to-end 
+          technology services that transform your business ideas into powerful digital experiences.
         </p>
       </div>
 
@@ -134,7 +146,7 @@ export const SkeletonOne = () => {
 export const SkeletonThree = () => {
   return (
     <a
-      href="https://www.youtube.com/watch?v=RPa3_AD1_Vs"
+      href="https://www.linkedin.com/company/yogineers-technologies-private-limited/"
       target="__blank"
       className="relative flex gap-10  h-full group/image"
     >
@@ -143,7 +155,7 @@ export const SkeletonThree = () => {
           {/* TODO */}
           <IconBrandYoutubeFilled className="h-20 w-20 absolute z-10 inset-0 text-red-500 m-auto " />
           <img
-            src="https://assets.aceternity.com/fireship.jpg"
+            src="https://media.discordapp.net/attachments/1406858253316526162/1439933959327973509/ABS2GSkeNX9tAWJU9QecqBTjAlGIUNc8RkNOMhTFdRc0v5z4qupL2k1PG2YOFHn9xqYS030QkPiuR5fY8bd3te2-oteA_J6UkGWhBBIXc3HRFv2YJ8E-Ws91429qLRV8YuwwXOGt_2t9cI14suJPDh_492fRX_-wkzeuqXTdDy0wLaoATz-bXAs1024-rj.png?ex=691c5280&is=691b0100&hm=173143daaef62ab69147e0a99fb86f37d1229c2dc2bd556656aa5037a8fa6f64&=&format=webp&quality=lossless&width=821&height=930"
             alt="header"
             width={800}
             height={800}
@@ -156,12 +168,17 @@ export const SkeletonThree = () => {
 };
 
 export const SkeletonTwo = () => {
-  const images = [
-    "https://images.unsplash.com/photo-1517322048670-4fba75cbbb62?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "https://images.unsplash.com/photo-1573790387438-4da905039392?q=80&w=3425&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "https://images.unsplash.com/photo-1555400038-63f5ba517a47?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "https://images.unsplash.com/photo-1554931670-4ebfabf6e7a9?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "https://images.unsplash.com/photo-1546484475-7f7bd55792da?q=80&w=2581&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  const mobileDevTechnologies = [
+    { icon: SiReact, name: "React Native", color: "#61DAFB" },
+    { icon: SiExpo, name: "Expo", color: "#000020" },
+    { icon: SiFlutter, name: "Flutter", color: "#02569B" },
+    { icon: SiSwift, name: "Swift", color: "#FA7343" },
+    { icon: SiKotlin, name: "Kotlin", color: "#7F52FF" },
+    { icon: SiFirebase, name: "Firebase", color: "#FFCA28" },
+    { icon: SiAndroid, name: "Android", color: "#3DDC84" },
+    { icon: SiApple, name: "iOS", color: "#000000" },
+    { icon: SiIonic, name: "Ionic", color: "#3880FF" },
+    { icon: SiTypescript, name: "TypeScript", color: "#3178C6" },
   ];
 
   const imageVariants = {
@@ -180,48 +197,52 @@ export const SkeletonTwo = () => {
     <div className="relative flex flex-col items-start p-8 gap-10 h-full overflow-hidden">
       {/* TODO */}
       <div className="flex flex-row -ml-20">
-        {images.map((image, idx) => (
-          <motion.div
-            variants={imageVariants}
-            key={"images-first" + idx}
-            style={{
-              rotate: Math.random() * 20 - 10,
-            }}
-            whileHover="whileHover"
-            whileTap="whileTap"
-            className="rounded-xl -mr-4 mt-4 p-1 bg-white dark:bg-neutral-800 border-orange-500 dark:border-orange-500 border shrink-0 overflow-hidden"
-          >
-            <img
-              src={image}
-              alt="bali images"
-              width="500"
-              height="500"
-              className="rounded-lg h-20 w-20 md:h-40 md:w-40 object-cover shrink-0"
-            />
-          </motion.div>
-        ))}
+        {mobileDevTechnologies.slice(0, 5).map((tech, idx) => {
+          const IconComponent = tech.icon;
+          return (
+            <motion.div
+              variants={imageVariants}
+              key={"tech-first-" + idx}
+              style={{
+                rotate: Math.random() * 20 - 10,
+              }}
+              whileHover="whileHover"
+              whileTap="whileTap"
+              className="rounded-xl -mr-4 mt-4 p-1 bg-white dark:bg-neutral-800 border-orange-500 dark:border-orange-500 border shrink-0 overflow-hidden"
+            >
+              <div className="rounded-lg h-20 w-20 md:h-40 md:w-40 flex items-center justify-center bg-white dark:bg-neutral-900 shadow-sm">
+                <IconComponent 
+                  className="h-10 w-10 md:h-16 md:w-16" 
+                  style={{ color: tech.color }}
+                />
+              </div>
+            </motion.div>
+          );
+        })}
       </div>
       <div className="flex flex-row">
-        {images.map((image, idx) => (
-          <motion.div
-            key={"images-second" + idx}
-            style={{
-              rotate: Math.random() * 20 - 10,
-            }}
-            variants={imageVariants}
-            whileHover="whileHover"
-            whileTap="whileTap"
-            className="rounded-xl -mr-4 mt-4 p-1 bg-white dark:bg-neutral-800 border-orange-500 dark:border-orange-500 border shrink-0 overflow-hidden"
-          >
-            <img
-              src={image}
-              alt="bali images"
-              width="500"
-              height="500"
-              className="rounded-lg h-20 w-20 md:h-40 md:w-40 object-cover shrink-0"
-            />
-          </motion.div>
-        ))}
+        {mobileDevTechnologies.slice(5, 10).map((tech, idx) => {
+          const IconComponent = tech.icon;
+          return (
+            <motion.div
+              key={"tech-second-" + idx}
+              style={{
+                rotate: Math.random() * 20 - 10,
+              }}
+              variants={imageVariants}
+              whileHover="whileHover"
+              whileTap="whileTap"
+              className="rounded-xl -mr-4 mt-4 p-1 bg-white dark:bg-neutral-800 border-orange-500 dark:border-orange-500 border shrink-0 overflow-hidden"
+            >
+              <div className="rounded-lg h-20 w-20 md:h-40 md:w-40 flex items-center justify-center bg-white dark:bg-neutral-900 shadow-sm">
+                <IconComponent 
+                  className="h-10 w-10 md:h-16 md:w-16" 
+                  style={{ color: tech.color }}
+                />
+              </div>
+            </motion.div>
+          );
+        })}
       </div>
 
       <div className="absolute left-0 z-[100] inset-y-0 w-20 bg-gradient-to-r from-white dark:from-black to-transparent  h-full pointer-events-none" />

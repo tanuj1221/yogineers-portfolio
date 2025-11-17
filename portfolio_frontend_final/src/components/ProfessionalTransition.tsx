@@ -87,7 +87,7 @@ export const ProfessionalTransition = ({ children }: ProfessionalTransitionProps
         <div ref={logoRef} className="text-center">
           <div className="w-16 h-16 flex items-center justify-center mx-auto mb-4">
             <img 
-              src="/tr.png" 
+              src="/YogineersTech-bgremoved.png" 
               alt="Transition Logo"
               className="w-full h-full object-contain"
             />

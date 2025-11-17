@@ -172,14 +172,16 @@ export default function DarkVeil({
   return (
     <canvas
       ref={ref}
-      className={`fixed inset-0 w-screen h-screen object-cover ${className}`}
+      className={className}
       style={{ 
         width: '100vw', 
         height: '100vh',
         position: 'fixed',
         top: 0,
         left: 0,
-        zIndex: -1
+        zIndex: -1,
+        objectFit: 'cover',
+        pointerEvents: 'none'
       }}
     />
   );

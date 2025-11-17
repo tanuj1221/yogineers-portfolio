@@ -122,18 +122,17 @@ export const Hero = () => {
 
   return (
     <div ref={heroRef} className="relative overflow-hidden min-h-screen flex items-center justify-center bg-white dark:bg-gray-900">
-      {/* Dark Veil Background - Optimized for performance */}
-      <div className="fixed inset-0 w-screen h-screen opacity-20 z-0 dark:block hidden">
-        <DarkVeil 
-          hueShift={25}
-          noiseIntensity={0.02}
-          scanlineIntensity={0.1}
-          speed={0.15}
-          scanlineFrequency={1.2}
-          warpAmount={0.05}
-          resolutionScale={0.8}
-        />
-      </div>
+      {/* Dark Veil Background - Fixed positioning for full screen coverage */}
+      <DarkVeil 
+        hueShift={25}
+        noiseIntensity={0.02}
+        scanlineIntensity={0.1}
+        speed={0.15}
+        scanlineFrequency={1.2}
+        warpAmount={0.05}
+        resolutionScale={0.8}
+        className="opacity-20 dark:block hidden"
+      />
       
       {/* Animated background elements */}
       <div
