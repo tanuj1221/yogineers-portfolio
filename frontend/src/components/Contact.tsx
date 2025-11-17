@@ -33,7 +33,7 @@ export const Contact = () => {
     {
       icon: Mail,
       title: 'Email Us',
-      content: 'admin@yogineers.in',
+      content: 'admin@yogineerstech.in',
       description: 'Send us an email anytime!',
     },
     {
