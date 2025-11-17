@@ -2,8 +2,8 @@
 
 export const seoConfig = {
   home: {
-    title: 'Hire Freelance Web Developer Mumbai | Website Development Company Thane | Yogineers',
-    description: 'Top freelance web developer & website development company in Mumbai, Thane. Hire expert freelancers for web development, app development, React, Node.js, AI solutions. Affordable freelance website developer for startups & businesses in Maharashtra, India.',
+    title: 'Hire Expert Web Developer Mumbai | Website Development Company Thane | Yogineers',
+    description: 'Top expert web developer & website development company in Mumbai, Thane. Hire expert developers for web development, app development, React, Node.js, AI solutions. Affordable expert website developer for startups & businesses in Maharashtra, India.',
     keywords: 'freelance web developer, freelancer, website development company, hire freelance developer, freelance website developer, web development company Mumbai, freelance app developer, freelance software developer, freelance programmer, independent web developer, contract developer, freelance React developer, freelance Node.js developer, freelance full stack developer, website developer for hire, freelance web designer, freelance mobile app developer, freelance AI developer, freelance developer Mumbai, freelance developer Thane, freelance developer Maharashtra, hire freelancer Mumbai, website development services, web development agency, custom website development, ecommerce website developer, startup website developer, business website developer, affordable web developer, professional freelance developer, experienced freelance developer, top freelance developer India',
   },
   
