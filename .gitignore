@@ -38,6 +38,3 @@ coverage/
 # Temporary files
 *.tmp
 .cache/
-
-**/uploads/
-uploads/

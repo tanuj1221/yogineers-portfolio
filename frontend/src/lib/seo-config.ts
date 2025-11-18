@@ -2,27 +2,27 @@
 
 export const seoConfig = {
   home: {
-    title: 'Hire Expert Web Developer Mumbai | Website Development Company Thane | Yogineers',
-    description: 'Top expert web developer & website development company in Mumbai, Thane. Hire expert developers for web development, app development, React, Node.js, AI solutions. Affordable expert website developer for startups & businesses in Maharashtra, India.',
-    keywords: 'freelance web developer, freelancer, website development company, hire freelance developer, freelance website developer, web development company Mumbai, freelance app developer, freelance software developer, freelance programmer, independent web developer, contract developer, freelance React developer, freelance Node.js developer, freelance full stack developer, website developer for hire, freelance web designer, freelance mobile app developer, freelance AI developer, freelance developer Mumbai, freelance developer Thane, freelance developer Maharashtra, hire freelancer Mumbai, website development services, web development agency, custom website development, ecommerce website developer, startup website developer, business website developer, affordable web developer, professional freelance developer, experienced freelance developer, top freelance developer India',
+    title: 'Hire Expert Web Developer Mumbai | 5+ Years Experience | Website Development Company',
+    description: 'Expert web developer & website development company in Mumbai, Thane with 5+ years experience. Hire experienced developers for web development, app development, React, Node.js, AI solutions. Professional website development for startups & businesses in Maharashtra, India.',
+    keywords: 'expert web developer, experienced web developer, 5+ years experience, website development company, hire expert developer, professional web developer, web development company Mumbai, expert app developer, experienced software developer, expert programmer, senior web developer, expert React developer, expert Node.js developer, expert full stack developer, website developer for hire, expert web designer, expert mobile app developer, expert AI developer, experienced developer Mumbai, expert developer Thane, hire expert Mumbai, website development services, web development agency, custom website development, ecommerce website developer, startup website developer, business website developer, affordable web developer, professional developer, experienced developer, top developer India',
   },
   
   about: {
-    title: 'About Us - Expert Freelance Developers in Mumbai & Thane',
-    description: 'Meet Yogineers Technologies - experienced freelance development team in Mumbai and Thane, Maharashtra. Delivering cutting-edge web, mobile, and AI solutions for startups and enterprises across India.',
-    keywords: 'about Yogineers, freelance development team Mumbai, software company Thane, tech team Maharashtra, experienced developers India, startup development Mumbai, enterprise solutions Thane',
+    title: 'About Us - Expert Developers with 5+ Years Experience | Mumbai & Thane',
+    description: 'Meet Yogineers Technologies - expert development team with 5+ years experience in Mumbai and Thane, Maharashtra. Delivering cutting-edge web, mobile, and AI solutions for startups and enterprises across India.',
+    keywords: 'about Yogineers, expert development team Mumbai, 5+ years experience, software company Thane, tech team Maharashtra, experienced developers India, startup development Mumbai, enterprise solutions Thane',
   },
   
   services: {
-    title: 'Freelance Web Development Services | Website Development Company Mumbai, Thane',
-    description: 'Professional freelance web development services & website development company in Mumbai, Thane. Hire freelancers for web development, mobile apps, AI solutions, React, Node.js, ecommerce, WordPress, Shopify. Affordable rates for startups & businesses.',
-    keywords: 'freelance web development services, website development company Mumbai, web development services Thane, hire freelance web developer, freelance app development, freelance software development, custom website development, ecommerce website developer, WordPress developer freelance, Shopify developer freelance, React development services, Node.js development services, freelance full stack development, mobile app development services, AI development services, freelance UI UX design, web design services Mumbai, website developer for hire, freelance backend developer, freelance frontend developer, API development services, database development, cloud solutions, freelance DevOps, startup development services',
+    title: 'Expert Web Development Services | 5+ Years Experience | Mumbai, Thane',
+    description: 'Professional expert web development services & website development company in Mumbai, Thane with 5+ years experience. Hire experienced developers for web development, mobile apps, AI solutions, React, Node.js, ecommerce, WordPress, Shopify. Affordable rates for startups & businesses.',
+    keywords: 'expert web development services, website development company Mumbai, web development services Thane, hire expert web developer, expert app development, experienced software development, custom website development, ecommerce website developer, WordPress developer expert, Shopify developer expert, React development services, Node.js development services, expert full stack development, mobile app development services, AI development services, expert UI UX design, web design services Mumbai, website developer for hire, expert backend developer, expert frontend developer, API development services, database development, cloud solutions, expert DevOps, startup development services',
   },
   
   contact: {
-    title: 'Hire Freelance Web Developer | Contact Website Development Company Mumbai',
-    description: 'Hire freelance web developer in Mumbai, Thane. Contact our website development company for free consultation. Get quotes for web development, app development, React, Node.js projects. Available for immediate hire across Maharashtra, India.',
-    keywords: 'hire freelance web developer, contact freelance developer, hire website developer, freelance developer for hire Mumbai, website development company contact, hire freelancer Mumbai, get web development quote, hire React developer, hire Node.js developer, freelance developer available, contact web developer, hire app developer, freelance consultation, project quote, hire full stack developer, contact software developer, hire freelance programmer, website developer near me',
+    title: 'Hire Expert Web Developer | Contact Website Development Company Mumbai',
+    description: 'Hire expert web developer with 5+ years experience in Mumbai, Thane. Contact our website development company for free consultation. Get quotes for web development, app development, React, Node.js projects. Available for immediate hire across Maharashtra, India.',
+    keywords: 'hire expert web developer, contact expert developer, hire website developer, expert developer for hire Mumbai, website development company contact, hire expert Mumbai, get web development quote, hire React developer, hire Node.js developer, expert developer available, contact web developer, hire app developer, expert consultation, project quote, hire full stack developer, contact software developer, hire expert programmer, website developer near me',
   },
   
   projects: {
@@ -33,7 +33,7 @@ export const seoConfig = {
   
   blogs: {
     title: 'Tech Blog - Web Development, AI & Software Insights | Yogineers',
-    description: 'Latest insights on web development, mobile app development, AI, and software engineering from expert freelance developers in Mumbai, Thane, Maharashtra.',
+    description: 'Latest insights on web development, mobile app development, AI, and software engineering from expert developers with 5+ years experience in Mumbai, Thane, Maharashtra.',
     keywords: 'web development blog, app development articles, AI insights, software engineering tips, tech blog India, developer insights Mumbai, programming tutorials Thane, technology trends Maharashtra',
   },
 };

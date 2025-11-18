@@ -11,8 +11,8 @@ interface SEOProps {
 }
 
 export const SEO = ({
-  title = 'Hire Expert Web Developer Mumbai | Website Development Company Thane | Yogineers',
-  description = 'Top expert web developer & website development company in Mumbai, Thane. Hire expert developers for web development, app development, React, Node.js, AI solutions. Affordable expert website developer for startups & businesses in Maharashtra, India.',
+  title = 'Hire Expert Web Developer Mumbai | 5+ Years Experience | Website Development Company',
+  description = 'Expert web developer & website development company in Mumbai, Thane with 5+ years experience. Hire experienced developers for web development, app development, React, Node.js, AI solutions. Professional website development for startups & businesses in Maharashtra, India.',
   keywords = 'freelance web developer, freelancer, website development company, hire freelance developer, freelance website developer, web development company Mumbai, freelance app developer, freelance software developer, freelance programmer, independent web developer, contract developer, freelance React developer, freelance Node.js developer, freelance full stack developer, website developer for hire, freelance web designer, freelance mobile app developer, freelance AI developer, freelance developer Mumbai, freelance developer Thane, freelance developer Maharashtra, freelance developer India, hire freelancer Mumbai, website development services, web development agency, custom website development, ecommerce website developer, startup website developer, business website developer, affordable web developer, professional freelance developer, experienced freelance developer, top freelance developer India, best website development company Mumbai, web development company Thane, software development company Maharashtra, freelance tech consultant, remote freelance developer, on-demand developer, project-based developer, freelance backend developer, freelance frontend developer, freelance UI UX developer, freelance database developer, freelance API developer, freelance cloud developer, freelance DevOps engineer, freelance software engineer, freelance web application developer, freelance mobile application developer, freelance ecommerce developer, freelance WordPress developer, freelance Shopify developer, freelance MERN stack developer, freelance MEAN stack developer, freelance Python developer, freelance JavaScript developer, freelance TypeScript developer',
   ogImage = '/logo2.png',
   ogType = 'website',
@@ -75,7 +75,7 @@ export const SEO = ({
           "name": "Yogineers Technologies",
           "alternateName": ["Yogineers", "Yogineers Tech"],
           "image": `${siteUrl}${ogImage}`,
-          "description": "Professional expert web developer and website development company specializing in custom web applications, mobile apps, AI solutions, and digital transformation services for businesses in Mumbai, Thane, and across India.",
+          "description": "Expert web developer and website development company with 5+ years experience specializing in custom web applications, mobile apps, AI solutions, and digital transformation services for businesses in Mumbai, Thane, and across India.",
           "address": {
             "@type": "PostalAddress",
             "addressLocality": "Mumbai, Thane",
@@ -90,7 +90,7 @@ export const SEO = ({
           "url": siteUrl,
           "telephone": "+91-XXXXXXXXXX",
           "priceRange": "$$",
-          "slogan": "Your Trusted Expert Web Developer & Website Development Partner",
+          "slogan": "Your Trusted Expert Web Developer with 5+ Years Experience",
           "openingHoursSpecification": {
             "@type": "OpeningHoursSpecification",
             "dayOfWeek": [
